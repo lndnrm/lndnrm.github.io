@@ -11,17 +11,34 @@ h1 {
     
 }
 
+h2 {
+    font-weight: 300px;
+    font-size: 42px;
+    color: white;
+}
+
+p {
+    font-weight: normal;
+    font-size: 21px;
+    color: grey;
+}
+
 a {
     font-size: 16px;
-    font-color: aquamarine;
+    color: aquamarine;
 }
 
 a:hover {
     font-size: 16px;
-    font-color: aquamarine;
+    color: aquamarine;
 }
 
 a:visited {
     font-size: 16px;
-    font-color: aquamarine;
+    color: aquamarine;
+}
+
+.footer {
+    text-align: right;
+    color: grey;
 }
