@@ -2,34 +2,42 @@
 <html lang="de">
 <head>
     <title>data information intelligence GmbH - Company Website</title>
-    <meta description>This site is an example project for the codecadamy fullstack developer course. It uses a flexblox design to overhaul the depreciated Website of the company I worked for.</description>
+    <meta charset="UTF-8">
+    <meta name="description" content="This site is an example project for the codecadamy fullstack developer course. It uses a flexblox design to overhaul the depreciated Website of the company I worked for.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Michae Lindner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class = "flex-container">
-    <nav></nav>
-    <section>
-    <hr>
-    <!--- title, logo-->
-    <h1>Data Information Intelligence</h1>
-
-    <p>A leading provider of market data and market research for the diagnostic and medical device industry.</p>
-    <!--- who we are (mission statement) -->
-    <h2>Who we are</h2>
-    <!--- images from the team https://www.dii-healthcare.com/this-is-dii/team.html - onclick we want the text to change -->
-    <h2>Our core team</h2>
-    <!--- product scope https://www.dii-healthcare.com/services.html - with some great example on click to change-->
-    <h2>Our products</h2>
-    <!--- some historical notes on the company history, and a link to EIU website-->
-    <h2>Milestone projects</h2>
-    <!--- social meedia crap-->
-    <h2>Find us in the internet</h2>
-    <!--- contact address -->
-    <h2>Get in touch</h2>
-    </section>
+<div class = "container">
+    <header class="header">
+         <!--- title, logo-->
+        <h1>Data Information Intelligence</h1>
+    </header>
+    <nav class = "nav-main">Who we are | Team | Products | Milestones | Social Media | Contact</nav>
+    <!--- main content block-->
+    <div class = "content">
+        <article class = "main">
+        <p>A leading provider of market data and market research for the diagnostic and medical device industry.</p>
+        <!--- who we are (mission statement) -->
+        <h2>Who we are</h2>
+        <!--- images from the team https://www.dii-healthcare.com/this-is-dii/team.html - onclick we want the text to change -->
+        <h2>Our core team</h2>
+        <!--- product scope https://www.dii-healthcare.com/services.html - with some great example on click to change-->
+        <h2>Our products</h2>
+        <!--- some historical notes on the company history, and a link to EIU website-->
+        <h2>Milestone projects</h2>
+        <!--- social meedia crap-->
+        <h2>Find us in the internet</h2>
+        <!--- contact address -->
+        <h2>Get in touch</h2>
+        </article>
+        <aside class="sidebar-left"></aside>
+        <aside class="sidebar-right"></aside>
+    </div>
     <!--- footer -->
-    <hr>
-    <footer>
+    <footer class="footer">
 
     </footer>
 </div>
